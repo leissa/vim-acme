@@ -17,7 +17,7 @@ into your plugged-section in your ```~/.vimrc``` and run
 ### Other Users
 
 ```bash
-git@github.com:leissa/vim-acme.git
+git clone git@github.com:leissa/vim-acme.git
 ln -s vim-acme/ftdetect/acme.vim ~/.vim/ftdetect/.
 ln -s vim-acme/syntax/acme.vim ~/.vim/syntax/.
 ```
