@@ -1,4 +1,4 @@
-# orginal from http://codebase64.org/doku.php?id=base:syntax_highligthing_acme_vim by Bitbreaker/Nuance^Metalvotze
+; orginal from http://codebase64.org/doku.php?id=base:syntax_highligthing_acme_vim by Bitbreaker/Nuance^Metalvotze
 
 syn clear
 syn case ignore
