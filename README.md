@@ -7,7 +7,7 @@ syntax-highlighting for the acme 6502-family assembler
 
 Put
 ```vim
-Plug 'justmao945/vim-clang'
+Plug 'leissa/vim-acme'
 ```
 into your plugged-section in your ```~/.vimrc``` and run
 ```vim
