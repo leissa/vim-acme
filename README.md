@@ -3,7 +3,7 @@ syntax-highlighting for the acme 6502-family assembler
 
 ## Install
 
-### [vim-plug](https://github.com/junegunn/vim-plug) users
+### [Vim-plug](https://github.com/junegunn/vim-plug) Users
 
 Put
 ```vim
