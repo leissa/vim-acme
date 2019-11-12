@@ -23,17 +23,17 @@ syn keyword asmPseudoop		else
 syn match asmLabel		"\<[a-z_+-.][a-z0-9_+-]*\>"
 
 syn match decNumber		"\<\d\+\>"
-syn match hexNumber		"\$\x\+\>"
+syn match hexNumber		"\(0x\|\$\)\x\+\>"
 syn match binNumber		"%[01]\+\>"
-syn match asmImmediate		"#\$\x\+\>"
+syn match asmImmediate		"#\(0x\|\$\)\x\+\>"
 syn match asmImmediate		"#\d\+\>"
-syn match asmImmediate		"<\$\x\+\>"
+syn match asmImmediate		"<\(0x\|\$\)\x\+\>"
 syn match asmImmediate		"<\d\+\>"
-syn match asmImmediate		">\$\x\+\>"
+syn match asmImmediate		">\(0x\|\$\)\x\+\>"
 syn match asmImmediate		">\d\+\>"
-syn match asmImmediate		"#<\$\x\+\>"
+syn match asmImmediate		"#<\(0x\|\$\)\x\+\>"
 syn match asmImmediate		"#<\d\+\>"
-syn match asmImmediate		"#>\$\x\+\>"
+syn match asmImmediate		"#>\(0x\|\$\)\x\+\>"
 syn match asmImmediate		"#>\d\+\>"
 
 if !exists("did_asm65_syntax_inits")
