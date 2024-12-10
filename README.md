@@ -1,17 +1,19 @@
 # vim-acme
-syntax-highlighting for the acme 6502-family assembler
+
+Syntax-highlighting for the acme 6502-family assembler.
 
 ## Install
 
-### [Vim-plug](https://github.com/junegunn/vim-plug) Users
+### [Lazy]()
 
-Put
+```lua
+{ 'leissa/vim-acme' },
+```
+
+### [Vim-Plug](https://github.com/junegunn/vim-plug)
+
 ```vim
 Plug 'leissa/vim-acme'
-```
-into your plugged-section in your ```~/.vimrc``` and run
-```vim
-:PlugInstall
 ```
 
 ### Other Users
